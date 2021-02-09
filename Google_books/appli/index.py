@@ -24,8 +24,9 @@ class Index():
 
         url = decoded[0]["volumeInfo"]["infoLink"]
 
-        link = "<a href='"+url+"'>"+book_name+"</a'"
+        link ="<a href='"+url+"'>"+book_name+"</a"
 
         return link
 
+  
        
