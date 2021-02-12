@@ -1,0 +1,19 @@
+$def with(datos)
+<html>
+    <head>
+    </head>
+    <body>
+        <form method="POST">
+            <label>NOMBRE DEL LIBRO</label></br>
+            <input type="text" name="name"></br>
+            <button type="submit">BUSCAR</button>
+        </form>
+          <div>
+            $if datos!=None:
+
+            $:datos["url"]<br>
+            $:datos["imagen"]<br>
+            $:datos["pagina"]<br>
+          </div>
+    </body> 
+</html>
