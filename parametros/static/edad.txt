@@ -1,0 +1,3 @@
+
+{'NOMBRE': 'jonathan', 'DIA': 16, 'MES': 3, 'ANO': 2001}
+{'NOMBRE': 'felipe', 'DIA': 26, 'MES': 9, 'ANO': 1999}
